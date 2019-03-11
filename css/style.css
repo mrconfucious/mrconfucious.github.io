@@ -65,7 +65,7 @@ ul {
   grid-row: 2/ span 1;
   position: relative;
   border-left: 1px solid black;
-  min-width: 250px; }
+  min-width: 200px; }
 
 .lable_module3 {
   font-family: '$font', sans-serif;
@@ -132,27 +132,106 @@ body {
 .wrapper2 {
   display: grid;
   grid-template-columns: repeat(12, auto);
-  grid-template-rows: repeat(2, auto); }
+  grid-template-rows: repeat(2, auto);
+  grid-row: 50px; }
 
 .page2_module2 {
   grid-column: 2 / span 3;
   grid-row-start: 2;
-  background-color: aquamarine;
-  width: 300px; }
+  width: 800px;
+  margin-left: 100px;
+  margin-top: 100px; }
 
 .decription {
-  height: 200px;
-  background-color: blueviolet;
-  width: 300px; }
+  width: 570px;
+  font-family: '$font', sans-serif;
+  font-size: 16pt; }
 
 .wrap_tabs {
+  display: flex;
+  justify-content: space-around;
   height: 200px;
-  background-color: cornflowerblue;
-  width: 300px; }
+  margin-top: 50px; }
+
+.ul_wrap_tabs {
+  float: left;
+  height: 200px;
+  margin-top: 0px;
+  box-sizing: border-box; }
+
+.div_wrap_tabs {
+  border: 2px solid black;
+  border-radius: 0 20px 20px 0;
+  width: 700px;
+  padding: 20px;
+  font-family: '$font', sans-serif;
+  font-size: 16pt; }
+
+.li_tabs {
+  width: 150px;
+  margin-left: 50px;
+  float: none;
+  font-family: '$font', sans-serif;
+  font-size: 15pt;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 20px 0 0 20px;
+  box-sizing: border-box;
+  background-color: black;
+  color: white; }
+  .li_tabs:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black; }
 
 .page2_module3 {
   grid-column: 6/span 5;
-  background-color: #e77d03; }
+  position: relative;
+  width: 900px;
+  margin-top: 100px; }
 
 .img_page2 {
-  width: 200px; }
+  height: 200px;
+  width: 300px; }
+
+.h1 {
+  font-family: '$font', sans-serif;
+  font-size: 25pt; }
+
+.img_page2_module3 {
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-evenly; }
+
+.input_module3_page2 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  right: 100px;
+  top: 20px; }
+  .input_module3_page2 input {
+    width: 200px;
+    -webkit-appearance: none;
+    border: 1px solid black;
+    border-radius: 5px 0 0 5px;
+    font-family: '$font', sans-serif;
+    font-size: 14pt; }
+
+.content_module3 {
+  font-family: '$font', sans-serif;
+  font-size: 16pt;
+  width: 650px; }
+
+.button_module3 {
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  font-family: '$font', sans-serif;
+  font-size: 16pt;
+  font-style: bold;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  border-radius: 0 5px 5px 0; }
+  .button_module3:hover {
+    cursor: pointer; }
