@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="logo" href="images/logo.png">
+    <script src="js/script.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -16,18 +16,17 @@
     <div class="menu">
         
 <ul>
-    <li><a href="">Home</a></li>
-    <li><a href="">Vacancy</a></li>
-    <li><a href="">Contacts</a></li>
-    <li><a href="">About</a></li>
+    <li  onclick="myFunction_one()"> Home</li>
+    <li  onclick="myFunction_two()">Vacancy</a></li>
+    <li  onclick="myFunction_tree()">Contacts</li>
+    <li  onclick="myFunction_four()">About</li>
 </ul>
 
 <img class="logo_img" src="images/logo.png">
     </div>
 
-    <div class="module2">
-
-      <div class="wrapperContent"> 
+    <div class="module2" id="module2_grid" >
+      <div class="wrapperContent" id="wrapperContentID"> 
       <img class="content" src="images/data science.png"> 
       <img class="content" src="images/front end.png">  
       <img class="content" src="images/hr.png">  
@@ -49,7 +48,7 @@
     </div>  
 
 
-<div class="filter">
+<div class="filter" id="filter_grid2">
 <p class = "lable_module3">Branch</p>
 
 
